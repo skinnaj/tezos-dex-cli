@@ -1,0 +1,31 @@
+{
+  "name": "tezos-dex-cli",
+  "version": "1.0.0",
+  "description": "A Typescript CLI for Tezos tokens, use it to fetch balances and make swaps.",
+  "main": "balances.ts",
+  "dependencies": {
+    "@taquito/signer": "^7.1.0-beta.0",
+    "@taquito/taquito": "^7.1.0-beta.0",
+    "bignumber.js": "^9.0.1",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.18.0",
+    "node-fetch": "^2.6.1",
+    "ts-node": "^9.1.1",
+    "tslint": "^6.1.3",
+    "typescript": "^4.1.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "setup": "npm install && npm -g install ts-node && cp .env.template .env"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skinnaj/tezos-dex-cli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skinnaj/tezos-dex-cli/issues"
+  },
+  "homepage": "https://github.com/skinnaj/tezos-dex-cli#readme"
+}
